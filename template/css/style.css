@@ -1,0 +1,41 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+section+section{
+  height:200px;
+  width:50%;
+  float:left;
+
+}
+body> section{
+  height:200px;
+  width:50%;
+  float:left;
+
+}
+body> section h2{
+  cursor: pointer;
+}
+section+section img{
+  width: 33.33%;
+  float:left;
+  object-fit: contain;
+  object-fit: cover;
+  height:auto;
+}
+.hidden{
+	display: none;
+}
+.text{
+  margin-top: none;
+  text-decoration: solid;
+  font-family: 'Caveat', cursive;
+  font-family: 'Source Sans 3', sans-serif;
+
+  float:left;
+}
